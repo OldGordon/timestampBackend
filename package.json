@@ -1,7 +1,7 @@
 {
-  "name": "fcc",
+  "name": "fcctimestamp",
   "version": "1.0.0",
-  "description": "",
+  "description": "FCC project",
   "main": "app.js",
   "dependencies": {
     "express": "^4.14.0",
@@ -9,8 +9,12 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Toni Julia",
+  "license": "ISC",
+  "engines": {
+   "node": "4.2.6"
+ }
 }
